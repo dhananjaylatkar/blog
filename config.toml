@@ -1,8 +1,10 @@
-baseURL= "https://dhananjaylatkar.github.io/"
+baseURL= "https://dhananjaylatkar.pages.dev/"
 languageCode= "en-us"
 title= "Dhananjay's Blog"
 theme= "cactus"
 copyright = "Dhananjay"
+googleAnalytics = "UA-200656436-1"
+
 # Main menu which appears below site header.
 [[menu.main]]
 name = "Home"
@@ -19,10 +21,10 @@ name = "Tags"
 url = "/tags"
 weight = 3
 
-# [[menu.main]]
-# name = "About"
-# url = "/about"
-# weight = 4
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+weight = 4
 
 [markup]
   [markup.tableOfContents]
@@ -31,7 +33,7 @@ weight = 3
     startLevel = 2
 
 [params]
-  description = "Hello there 👋."
+  description = "Hello there 👋. \n\nThis blog is a collection of articles that will help others (including future me 🙃). All the posts are a compilation of things I read on the internet, man pages and Docs."
   mainSection = "posts"
   mainSectionTitle = "Posts"
   showAllPostsOnHomePage = false
@@ -43,6 +45,4 @@ weight = 3
   [[params.social]]
     name = "github"
     link = "https://github.com/dhananjaylatkar"
-  [[params.social]]
-    name = "discord"
-    link = "https://www.linkedin.com/"
+
